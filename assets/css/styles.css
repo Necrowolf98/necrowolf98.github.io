@@ -408,7 +408,7 @@ img {
 }
 
 .about__description {
-  text-align: center;
+  text-align: justify;
   margin-bottom: var(--mb-2-5);
 }
 
@@ -518,6 +518,18 @@ img {
   width: 40%;
 }
 
+.skills__mysql {
+  width: 50%;
+}
+
+.skills__linux {
+  width: 50%;
+}
+
+.skills__aws {
+  width: 50%;
+}
+
 .skills__python {
   width: 10%;
 }
@@ -527,7 +539,7 @@ img {
 }
 
 .skills__css {
-  width: 60%;
+  width: 50%;
 }
 
 .skills__js {
@@ -536,6 +548,29 @@ img {
 
 .skills__vue {
   width: 70%;
+}
+
+.skills__tailwind {
+  width: 60%;
+}
+.skills__primevue {
+  width: 80%;
+}
+.skills__bootstrap {
+  width: 60%;
+}
+
+.package__laravel_inertia {
+  width: 80%;
+}
+.package__laravel_permission {
+  width: 70%;
+}
+.package__laravel_multitenancy {
+  width: 60%;
+}
+.package__laravel_excel {
+  width: 60%;
 }
 
 .hobbies__guitarra  {
@@ -1098,9 +1133,12 @@ img {
   .skills__container,
   .portfolio__content,
   .project__container,
-  .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact__container {
+    justify-content: center;
   }
 
   .qualification__sections {
